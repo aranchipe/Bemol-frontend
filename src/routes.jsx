@@ -1,5 +1,6 @@
 import { Routes, Route, Outlet, Navigate } from 'react-router-dom';
-import SignIn from './pages/SignIn';
+import Login from './pages/Login';
+import Cadastro from './pages/Cadastro';
 import { ToastContainer } from 'react-toastify';
 import { getItem } from './utils/storage';
 import Main from './pages/Main';
@@ -19,9 +20,12 @@ function MainRoutes() {
 
             <Routes>
 
+                <Route path="/cadastro" element={<Cadastro />} />
+
+
                 <Route path="/">
-                    <Route path="/" element={<SignIn />} />
-                    <Route path="/login" element={<SignIn />} />
+                    <Route path="/" element={<Login />} />
+                    <Route path="/login" element={<Login />} />
                 </Route>
 
                 <Route element={<ProtectedRoutes redirectTo='/login' />}>

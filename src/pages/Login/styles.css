@@ -5,20 +5,15 @@
     align-items: center;
     justify-content: space-between;
     height: 100vh;
+    background-image: linear-gradient(#00A1E5, white);
 }
 
 .left-signin {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
-    width: 30%;
-    background-color: rgba(3, 74, 42, 0.05);
-    background-image: url(../../assets//bg-signin.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-left-signin {
@@ -31,7 +26,6 @@
 
 .right-signin {
     width: 70%;
-    background-color: var(--color-grey-buttons);
     position: relative;
     display: flex;
     align-items: center;
@@ -40,9 +34,14 @@
     height: 100vh;
 }
 
+.formulario {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 50px 20px 30px 20px;
+}
+
 
 .title-signin {
-    margin-top: -100px;
     margin-bottom: 3.2rem;
     color: var(--color-titles);
     font-size: 2.4rem;
@@ -72,7 +71,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    color: #DA0175;
+    color: #E12622;
     font-size: 1.4rem;
     font-weight: 600;
 }

@@ -1,0 +1,24 @@
+.container-signup {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signup-left {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF4539;
+
+    backdrop-filter: blur(4px);
+}
+
+.signup-right {
+    flex-grow: 1.2;
+    background-image: url('../../assets/bemol.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -11,7 +11,7 @@ button {
 
 
 :root {
-  --btn-pink: #DA0175;
+  --btn-pink: #E12622;
   --btn-grey: #F8F8F9;
 }
 
@@ -19,7 +19,7 @@ button {
 .btn-pink-small,
 .btn-grey-middle,
 .btn-pink-big {
-  background-color: #DA0175;
+  background-color: #E12622;
   border-radius: 0.625rem;
   color: #F8F8F9;
 
@@ -61,5 +61,5 @@ button {
 }
 
 .links a {
-  color: #DA0175;
+  color: #E12622;
 }

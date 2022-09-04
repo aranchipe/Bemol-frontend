@@ -1,22 +1,6 @@
-.container-register-client-modal {
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(145, 154, 150, 0.3);
-    backdrop-filter: blur(4px);
-    z-index: 2;
-}
-
-.form-register-client {
+.container-cadastro form {
     width: 48.7rem;
-    height: 70%;
-    background: #ffffff;
+    background: #00A1E5;
     border-radius: 3rem;
     display: flex;
     flex-direction: column;
@@ -29,7 +13,7 @@
     margin-bottom: 1.56rem;
 }
 
-.form-register-client h1 {
+.container-cadastro h1 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -44,12 +28,12 @@
     width: 3.2rem;
 }
 
-.cpf-telephone {
+.cpf-telefone {
     display: flex;
     justify-content: space-between;
 }
 
-#telephone {
+#telefone {
     width: 22.4rem;
     margin-left: -4rem;
 }
@@ -67,48 +51,78 @@
     width: 22.8rem;
 }
 
-#district {
+#bairro {
     width: 23.5rem;
 }
 
-.city-state {
+.cidade-estado {
     display: flex;
     justify-content: space-between;
 }
 
-#city {
+#cidade {
     width: 30.3rem;
 }
 
-#state {
+#estado {
     width: 16rem;
     margin-left: -8rem;
 }
 
-.container-register-client-modal input {
+#senha {
+    width: 22.8rem;
+
+}
+
+.senha {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.senha1 {
+    position: absolute;
+    top: 40px;
+    left: 195px;
+    cursor: pointer;
+    width: 2rem;
+    height: 1.8rem;
+}
+
+.senha2 {
+    position: absolute;
+    top: 40px;
+    right: 13px;
+    cursor: pointer;
+    width: 2rem;
+    height: 1.8rem;
+}
+
+.container-cadastro input {
     all: unset;
     margin: 0;
     box-sizing: border-box;
     padding: 1rem 0 1rem 1.4rem;
-    border: 1px solid #D0D5DD;
+    border: 1px solid #000000;
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
     margin-bottom: 8px;
     font-size: 1.6rem;
+    background-color: white;
 }
 
-.container-register-client-modal label {
+.container-cadastro label {
     margin-bottom: 0.6rem;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 2rem;
-    color: #3F3F55;
+    color: white;
 }
 
-.container-register-client-modal input::placeholder {
-    color: #9B9BB2;
+.container-cadastro input::placeholder {
+    color: #636372;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -118,14 +132,17 @@
 
 .botoes {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin-top: 4.9rem;
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 2.5rem;
+    gap: 10px;
 }
 
 .btn-cancelar {
@@ -149,7 +166,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #DA0175;
+    background: #E12622;
     border-radius: 1rem;
     width: 23.3rem;
     height: 3.46rem;
@@ -168,23 +185,23 @@
 
 }
 
-.cpf-telephone input {
+.cpf-telefone input {
     width: 22.5rem;
 }
 
-.telephone input {
+.telefone input {
     margin-left: -4rem;
 }
 
 @media screen and (max-device-height: 950px) {
-    .form-register-client {
+    .container-cadastro {
         height: 85%;
         padding: 3rem 3.7rem;
     }
 }
 
 @media screen and (max-device-height: 850px) {
-    .form-register-client {
+    .container-cadastro {
         height: 85%;
         padding: 3rem 3.7rem;
     }
@@ -195,7 +212,7 @@
 }
 
 @media screen and (max-device-height: 745px) {
-    .form-register-client {
+    .container-cadastro {
         width: 47rem;
         height: 85%;
         padding: 4rem 3.7rem;
@@ -211,7 +228,7 @@
         font-size: 2.6rem;
     }
 
-    .form-register-client input {
+    .container-cadastro input {
         height: 3.5rem;
     }
 
