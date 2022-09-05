@@ -1,33 +1,32 @@
-![](https://i.imgur.com/xG74tOh.png)
+# Bemol-frontend
 
-# Desafio Final Módulo 5 - FRONTEND
+## Páginas
 
-Este repositório deverá servir de base para ser realizado o fork para desenvolvimento da parte de **FRONTEND** do desafio.
+- Login
+- Cadastro
+- Main
 
-A URL deste repositório deverá ser entregue na plataforma de alunos da Cubos Academy na página da parte de FRONTEND do desafio.
+### Login
 
-A versão final do código de cada sprint deverá estar na branch principal do repositório e sim, a cada semana acumulará as alterações das sprints, portanto a segunda sobrescrevendo a primeira e assim por diante.
+- Aqui o usuário poderá fazer o login na sua conta, preenchendo dois campos (email e senha)
+- O usuário poderá escolher se a senha será visível ou não.
+- Aqui terá o link para a página de cadastro caso o usuário queira cadastrar uma nova conta.
 
----
+### Cadastro
 
-No fork de vocês, favor alterar este README para adicionar os links correspondentes para os seguintes itens:
+- Aqui o usuário deve preencher pelo menos os campos obrigatórios e clicar no botão cadastrar para finalizar o seu cadastro.
+- Aqui terá o link para a página de login caso o usuário queira já possua uma conta.
 
-**Repositório de Backend**: https://github.com/franSborges/back-integral-m05-desafio-t05
+### Main
+- Aqui o usuário verá a frase "Você está logado".
 
-**Repositório de Frontend**: https://github.com/franSborges/front-integral-m05-desafio-t05
 
-**URL da aplicação funcionando**: https://sgf-customers.vercel.app/
+## Links
 
----
+**Repositório de Backend**: https://github.com/aranchipe/Bemol-backend
 
-E os itens abaixo, que deverão ser preenchidos apenas após a finalização de todas as sprints do projeto: 
+**Repositório de Frontend**: https://github.com/aranchipe/Bemol-frontend
 
-**Pull Request (PR) de Backend**: 
+**URL da aplicação funcionando**: https://bemol.netlify.app/
 
-**Pull Request (PR) de Frontend**: 
-
-Estes Pull Requests (PRs) deverão ser criados a partir da branch principal do fork correspondente de vocês daquela stack tendo como destino o repositório base da stack do desafio.
-
-Ou seja, o Pull Request de **FRONTEND** deverá ser criado a partir do fork de vocês desse repositório aqui, com destino a este repositório aqui.
-
-E portanto o Pull Request de **BACKEND** deverá ser criado a partir do fork de vocês do repositório base de BACKEND desse desafio, com destino ao [repositório base de BACKEND desse desafio](https://github.com/cubos-academy/back-integral-m05-desafio-t05).
+**URL da API**: https://bemol-backend.herokuapp.com
