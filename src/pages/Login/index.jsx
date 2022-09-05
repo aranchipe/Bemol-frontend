@@ -22,7 +22,7 @@ function Login() {
         if (token) {
             navigate('/main')
         }
-    }, [])
+    })
 
     function handleChangeForm({ target }) {
         setForm({ ...form, [target.name]: target.value });
